@@ -1,10 +1,12 @@
-import ListContact from "./ListContact"
+import React from 'react'
+import AddContact from './AddContact'
 
-
-function Home()
-{
-    console.log(<ListContact/>) 
+function Home() {
+  return (
+    <div>
+      <AddContact/>
+    </div>
+  )
 }
-
 
 export default Home
