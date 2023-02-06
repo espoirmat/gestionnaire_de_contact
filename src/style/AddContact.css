@@ -2,4 +2,8 @@ form
 {
     display: flex;
     flex-direction: column;
+    background: gray;
+    text-align: right;
+    width: 40%;
+    padding: 5%;
 }
