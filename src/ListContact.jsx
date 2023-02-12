@@ -5,7 +5,15 @@ import React from 'react'
 function ListContact() {
   return (
     <div className="list_item">
-      {ContactItem.map(ContactItem=>(<h1 key={ContactItem.id}>{ContactItem.name}</h1>))}
+    <h1>liste des contacts</h1>
+    {ContactItem.map(ContactItem=>(<p key={ContactItem.id}>
+      
+      <ul>
+        <li>{ContactItem.id} {""} {ContactItem.name}{""} {ContactItem.username}{""} {ContactItem.email}</li>
+      </ul>
+      
+      
+      </p>))}
     </div>
   )
 }

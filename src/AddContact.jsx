@@ -9,6 +9,8 @@ function AddContact()
 {
    return (<div className="form">
 
+   <h1>Ajouter un Contact</h1>
+
     <form className="formulaire" >
         <label htmlFor="nom">Nom</label>
         <input type="text" className="nom"/>
