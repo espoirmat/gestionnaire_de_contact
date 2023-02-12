@@ -4,6 +4,6 @@ form
     flex-direction: column;
     background: gray;
     text-align: right;
-    width: 40%;
+    width: 100%;
     padding: 5%;
 }

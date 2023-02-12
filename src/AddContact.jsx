@@ -1,12 +1,17 @@
 import './style/AddContact.css'
+import React from 'react';
+
+
+
+
 
 function AddContact() 
 {
    return (<div className="contenue">
 
-    <form className="formulaire">
-        <label htmlFor="name">Nom</label>
-        <input type="text" className="name"/>
+    <form className="formulaire" >
+        <label htmlFor="nom">Nom</label>
+        <input type="text" className="nom"/>
 
         <label htmlFor="usename">Nom d'utilisateur</label>
         <input type="text" className="usename"/>
@@ -25,6 +30,8 @@ function AddContact()
 
         <label htmlFor="company">company</label>
         <input type="text" className="company"/>
+
+        <input type='submit' value="valider"  />
     </form>
 
    </div> )
