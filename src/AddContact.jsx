@@ -7,7 +7,7 @@ import React from 'react';
 
 function AddContact() 
 {
-   return (<div className="contenue">
+   return (<div className="form">
 
     <form className="formulaire" >
         <label htmlFor="nom">Nom</label>
